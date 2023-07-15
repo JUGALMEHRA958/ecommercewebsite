@@ -1,0 +1,157 @@
+.navbar{
+    background-color: #0F1111;
+    height: 40px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    justify-content: start;
+    
+}
+
+
+.nav-logo{
+    background-color: #0F1111;
+    height: 90%;
+    width: 110px;
+    border: .5px solid transparent;
+
+}
+
+.navbar-address{
+    height: 90%;
+    width: 90px;
+    border: .5px solid transparent;
+
+    
+}
+
+.logo{
+    background-image: url("logo.jpeg");
+    height: 100%;
+    background-size: cover;
+
+}
+
+.hover-border:hover{
+    border: .5px solid white;
+}
+
+.navbar-address-block1{
+    margin-left: 30%;
+    font-size: 0.9rem;
+    color: grey;
+}
+
+.navbar-search{
+    margin-left: 2%;
+    display: flex;
+    border: 1px solid transparent;
+    min-width: 1000px;    
+
+}
+.navbar-search:hover{
+    border: 1.8px solid orange;
+    
+}
+.navbar-search input {
+    height:85%;
+    width: 100%;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    /* height: 80%; */
+    padding: 5px;
+    border: none;
+    display: flex;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.search-icon-div{
+    background-color: orange;
+    height: 100%;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color:#febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+}
+.fa-magnifying-glass{
+    color: #0F1111;
+}
+
+.navbar-signin{
+    margin-left: 2%;
+    border: .5px solid transparent;
+
+}
+
+.navbar-signin-smaller{
+    font-size: 0.9rem;
+    text-align: left;
+}
+.navbar-signin-bigger{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.navbar-orders{
+    /* border-left: 5px; */
+    margin-left: 2%;    
+    border: .5px solid transparent;
+
+}
+
+.nav-cart{
+    margin-left: 2%;
+    display: block;
+    display: flex;
+    height: 80%;
+    margin-top: 0.5%;
+}
+.fa-cart-shopping{
+    width: 100%;
+}
+
+.nav-second{
+    margin-left: 18%
+}
+
+.pannel{
+    background-color: #222f3d;
+    opacity: 0.9;
+    height: 45px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* justify-content: center; */
+}
+.pannel-all{
+    /* display: flex; */
+    color: white;
+    margin-left: 2%;
+}
+
+.pannel-options{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    width: 70%;
+    color: white;
+
+    
+}
+
+.pannel-options p{
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    color: white;
+}
