@@ -1,0 +1,29 @@
+.hero{
+    background-image: url('https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg');
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    opacity: 1;
+    /* This will fade the image after 80% */
+    /* background-image: linear-gradient(to bottom, #9f2a6e 0%, #000000 80%); */
+    /* background-image: linear-gradient(to top, #ffffff 0%, #000000 80%); */
+
+}
+.hero:hover {
+    /* This will continue fading the image until it's fully transparent */
+    opacity: 0.98;
+  }
+
+.hero-msg{
+    color: black;
+    background-color: whitesmoke;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem  ;
+    width: 80%;
+    margin-bottom: 30px;
+}
