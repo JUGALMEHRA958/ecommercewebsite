@@ -5,8 +5,8 @@
     padding: 10px;
     display: flex;
     /* display: flex; */
-    /* justify-content: space-evenly; */
-    justify-content: start;
+    justify-content: space-evenly;
+    /* justify-content: start; */
     
 }
 
@@ -28,7 +28,7 @@
 }
 
 .logo{
-    background-image: url("logo.jpeg");
+    background-image: url(".././../assets/logo.jpeg");
     height: 100%;
     background-size: cover;
 
@@ -48,7 +48,7 @@
     margin-left: 2%;
     display: flex;
     border: 1px solid transparent;
-    min-width: 1000px;    
+    min-width: 600px;    
 
 }
 .navbar-search:hover{
@@ -82,6 +82,7 @@
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border: none;
+    margin-left: -15px;
 }
 .fa-magnifying-glass{
     color: #0F1111;
@@ -110,6 +111,7 @@
 }
 
 .nav-cart{
+    border: 1px solid transparent;
     margin-left: 2%;
     display: block;
     display: flex;

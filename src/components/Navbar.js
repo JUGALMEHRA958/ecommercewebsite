@@ -25,7 +25,7 @@ function Navbar() {
       </div>
       <div className='search-icon-div'>
       <i class="fa-solid fa-magnifying-glass"></i>      </div>
-
+      
       <div className='navbar-signin hover-border' >
       <p className='navbar-signin-smaller'>Hello, sign in</p>
       <p className='navbar-signin-bigger'>Accounts & lists <i className="fa-sharp fa-solid fa-angle-down"></i></p>
